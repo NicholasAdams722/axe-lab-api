@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Nick Adams",
+      "email": "nadams.music@gmail.com",
+      "isAdmin": false
+    },
+    {
+      "id": 2,
+      "name": "Jake Lamb",
+      "email": "jakesguitars@gmail.com",
+      "isAdmin": true
+    },
+    {
+      "id": 3,
+      "name": "Bryan Cranston",
+      "email": "theonewhoknocks@gmail.com",
+      "isAdmin": false
+    },
+    {
+      "id": 4,
+      "name": "Natalie Johnson",
+      "email": "natalieJ@gmail.com",
+      "isAdmin": false
+    }
+  ],
+  "customGuitar": [
+    {
+      "id": 1,
+      "userId": 1,
+      "guitarName": "Guitar Name",
+      "bodyStyleId": 1,
+      "bodyWoodTypeId": 1,
+      "neckShapeId": 1,
+      "neckWoodTypeId": 1,
+      "hardwareId": 1,
+      "electronics": false
+    },
+    {
+      "bodyWoodTypeId": 0,
+      "neckShapeId": 0,
+      "neckWoodTypeId": 0,
+      "hardware": 0,
+      "id": 2
+    },
+    {
+      "bodyWoodTypeId": 0,
+      "neckShapeId": 0,
+      "neckWoodTypeId": 0,
+      "hardware": 0,
+      "id": 3
+    },
+    {
+      "guitarName": "s",
+      "id": 4
+    },
+    {
+      "bodyStyleId": "1",
+      "bodyWoodTypeId": 0,
+      "neckShapeId": 0,
+      "neckWoodTypeId": 0,
+      "hardware": 0,
+      "id": 5
+    },
+    {
+      "bodyStyleId": "2",
+      "bodyWoodTypeId": 0,
+      "neckShapeId": 0,
+      "neckWoodTypeId": 0,
+      "hardware": 0,
+      "id": 6
+    },
+    {
+      "bodyStyleId": "1",
+      "bodyWoodTypeId": 0,
+      "neckShapeId": 0,
+      "neckWoodTypeId": 0,
+      "hardware": 0,
+      "id": 7
+    }
+  ],
+  "bodyStyle": [
+    {
+      "id": 1,
+      "style": "Parlor",
+      "price": 200
+    },
+    {
+      "id": 2,
+      "style": "Auditorium",
+      "price": 400
+    },
+    {
+      "id": 3,
+      "style": "Dreadnought",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "style": "Concert",
+      "price": 250
+    }
+  ],
+  "bodyWoodType": [
+    {
+      "id": 1,
+      "type": "Mahogany",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "type": "Maple",
+      "price": 100
+    },
+    {
+      "id": 3,
+      "type": "Spruce",
+      "price": 100
+    },
+    {
+      "id": 4,
+      "type": "Sitka",
+      "price": 100
+    }
+  ],
+  "neckShape": [
+    {
+      "id": 1,
+      "shape": "C",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "shape": "V",
+      "price": 50
+    },
+    {
+      "id": 3,
+      "shape": "U",
+      "price": 50
+    },
+    {
+      "id": 4,
+      "shape": "D",
+      "price": 50
+    }
+  ],
+  "neckWoodType": [
+    {
+      "id": 1,
+      "type": "Maple",
+      "price": 40
+    },
+    {
+      "id": 2,
+      "type": "Rosewood",
+      "price": 40
+    },
+    {
+      "id": 3,
+      "type": "Mahogany",
+      "price": 40
+    },
+    {
+      "id": 4,
+      "type": "Walnut",
+      "price": 40
+    }
+  ],
+  "hardware": [
+    {
+      "id": 1,
+      "type": "Standard",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "type": "Premium",
+      "price": 85
+    }
+  ]
+}
