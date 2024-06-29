@@ -23,130 +23,211 @@
       "name": "Natalie Johnson",
       "email": "natalieJ@gmail.com",
       "isAdmin": false
-    }
-  ],
-  "customGuitar": [
-    {
-      "id": 1,
-      "userId": 1,
-      "guitarName": "Guitar Name",
-      "bodyStyleId": 1,
-      "bodyWoodTypeId": 1,
-      "neckShapeId": 1,
-      "neckWoodTypeId": 1,
-      "hardwareId": 1,
-      "electronics": false
     },
     {
-      "bodyWoodTypeId": 0,
-      "neckShapeId": 0,
-      "neckWoodTypeId": 0,
-      "hardware": 0,
-      "id": 2
-    },
-    {
-      "bodyWoodTypeId": 0,
-      "neckShapeId": 0,
-      "neckWoodTypeId": 0,
-      "hardware": 0,
-      "id": 3
-    },
-    {
-      "guitarName": "s",
-      "id": 4
-    },
-    {
-      "bodyStyleId": "1",
-      "bodyWoodTypeId": 0,
-      "neckShapeId": 0,
-      "neckWoodTypeId": 0,
-      "hardware": 0,
+      "email": "squid@gmail.com",
+      "fullName": "Squidward Tenticles",
+      "isAdmin": false,
       "id": 5
     },
     {
-      "bodyStyleId": "2",
-      "bodyWoodTypeId": 0,
-      "neckShapeId": 0,
-      "neckWoodTypeId": 0,
-      "hardware": 0,
+      "email": "Jc@cockmale.com",
+      "fullName": "JC",
+      "isAdmin": false,
       "id": 6
-    },
-    {
-      "bodyStyleId": "1",
-      "bodyWoodTypeId": 0,
-      "neckShapeId": 0,
-      "neckWoodTypeId": 0,
-      "hardware": 0,
-      "id": 7
     }
   ],
-  "bodyStyle": [
+  "customGuitars": [
+    {
+      "userId": 4,
+      "guitarName": "Natalies Guitar",
+      "bodyStyleId": 2,
+      "bodyWoodTypeId": 3,
+      "neckShapeId": 2,
+      "neckWoodTypeId": 4,
+      "hardwareTypeId": 1,
+      "guitarPrice": 615,
+      "id": 14
+    },
+    {
+      "userId": 4,
+      "guitarName": "Natalies Guitar 3",
+      "bodyStyleId": 1,
+      "bodyWoodTypeId": 3,
+      "neckShapeId": 2,
+      "neckWoodTypeId": 2,
+      "hardwareTypeId": 1,
+      "guitarPrice": 415,
+      "id": 26
+    },
+    {
+      "userId": 4,
+      "guitarName": "Natalies Guitar 2",
+      "bodyStyleId": 3,
+      "bodyWoodTypeId": 2,
+      "neckShapeId": 2,
+      "neckWoodTypeId": 3,
+      "hardwareTypeId": 2,
+      "guitarPrice": 764,
+      "id": 27
+    },
+    {
+      "userId": 5,
+      "guitarName": "Not a Clarinet",
+      "bodyStyleId": 2,
+      "bodyWoodTypeId": 2,
+      "neckShapeId": 3,
+      "neckWoodTypeId": 1,
+      "hardwareTypeId": 2,
+      "guitarPrice": 664,
+      "id": 28
+    },
+    {
+      "userId": 5,
+      "guitarName": "New Guitar 1",
+      "bodyStyleId": 4,
+      "bodyWoodTypeId": 4,
+      "neckShapeId": 4,
+      "neckWoodTypeId": 4,
+      "hardwareTypeId": 1,
+      "guitarPrice": 500,
+      "id": 29
+    },
+    {
+      "userId": 5,
+      "guitarName": "6 Strings Under The Sea",
+      "bodyStyleId": 2,
+      "bodyWoodTypeId": 2,
+      "neckShapeId": 3,
+      "neckWoodTypeId": 1,
+      "hardwareTypeId": 2,
+      "guitarPrice": 664,
+      "id": 30
+    },
+    {
+      "userId": 5,
+      "guitarName": "Beautiful",
+      "bodyStyleId": 1,
+      "bodyWoodTypeId": 2,
+      "neckShapeId": 3,
+      "neckWoodTypeId": 2,
+      "hardwareTypeId": 2,
+      "guitarPrice": 464,
+      "id": 31
+    },
+    {
+      "userId": 6,
+      "guitarName": "JCs Dick",
+      "bodyStyleId": 3,
+      "bodyWoodTypeId": 1,
+      "neckShapeId": 2,
+      "neckWoodTypeId": 2,
+      "hardwareTypeId": 2,
+      "guitarPrice": 774,
+      "id": 35
+    },
+    {
+      "userId": 6,
+      "guitarName": "JCs Balls",
+      "bodyStyleId": 2,
+      "bodyWoodTypeId": 3,
+      "neckShapeId": 2,
+      "neckWoodTypeId": 2,
+      "hardwareTypeId": 1,
+      "guitarPrice": 714,
+      "id": 36
+    },
+    {
+      "userId": 1,
+      "guitarName": "Parlor Guitar",
+      "bodyStyleId": 1,
+      "bodyWoodTypeId": 1,
+      "neckShapeId": 3,
+      "neckWoodTypeId": 2,
+      "hardwareTypeId": 2,
+      "guitarPrice": 474,
+      "id": 37
+    }
+  ],
+  "bodyStyles": [
     {
       "id": 1,
       "style": "Parlor",
+      "image": "data:image/jpeg;base64,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",
       "price": 200
     },
     {
       "id": 2,
       "style": "Auditorium",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeGjtO2E_22eN6wKE4bOU5iLd37qNZUSC09Bn7jvWvowNcdQUOrwEvk46O0KZqNqq42DI&usqp=CAU",
       "price": 400
     },
     {
       "id": 3,
       "style": "Dreadnought",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwLYkICRVR1Gt16gRI4v2bzhr4f_3fRTWn6Q&usqp=CAU",
       "price": 500
     },
     {
       "id": 4,
       "style": "Concert",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSB8cbfa8lhz_rXUb7aacYgqoe1-A-U-RkSw&usqp=CAU",
       "price": 250
     }
   ],
-  "bodyWoodType": [
+  "bodyWoodTypes": [
     {
       "id": 1,
+      "image": "https://www.taylorguitars.com/sites/default/files/styles/product_list/public/images/2021-10/top-woods-grain-mahogany-350x350_0.jpeg?itok=B9CFyTuo",
       "type": "Mahogany",
-      "price": 100
+      "price": 99
     },
     {
       "id": 2,
       "type": "Maple",
-      "price": 100
+      "image": "https://www.taylorguitars.com/sites/default/files/styles/product_list/public/images/2021-10/back-woods-grain-layered-maple-350x350_0.jpeg?itok=PAiufvZb",
+      "price": 89
     },
     {
       "id": 3,
-      "type": "Spruce",
-      "price": 100
+      "type": "Sitka Spruce",
+      "image": "https://www.taylorguitars.com/sites/default/files/styles/product_list/public/images/2021-10/top-woods-grain-sitka-spruce-350x350_0.jpeg?itok=fie421z7",
+      "price": 75
     },
     {
       "id": 4,
-      "type": "Sitka",
-      "price": 100
+      "type": "Cedar",
+      "image": "https://www.taylorguitars.com/sites/default/files/styles/product_list/public/images/2021-10/top-woods-grain-cedar-350x350_0.jpeg?itok=GrCk0flC",
+      "price": 110
     }
   ],
-  "neckShape": [
+  "neckShapes": [
     {
       "id": 1,
       "shape": "C",
+      "image": "https://prosoundhq.com/wp-content/uploads/2022/12/c-shape-neck.jpg",
       "price": 50
     },
     {
       "id": 2,
       "shape": "V",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpH40hU2fY-u_b5Bf_-0hIpUuE7d1zaozQQw&usqp=CAU",
       "price": 50
     },
     {
       "id": 3,
       "shape": "U",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYhjukmexJkk-7Okn8RSAXJjrbWNvKt7OMRg&usqp=CAU",
       "price": 50
     },
     {
       "id": 4,
       "shape": "D",
+      "image": "https://prosoundhq.com/wp-content/uploads/2022/12/d-shape-neck-2.jpg",
       "price": 50
     }
   ],
-  "neckWoodType": [
+  "neckWoodTypes": [
     {
       "id": 1,
       "type": "Maple",
@@ -155,11 +236,13 @@
     {
       "id": 2,
       "type": "Rosewood",
+      "image": "data:image/jpeg;base64,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",
       "price": 40
     },
     {
       "id": 3,
       "type": "Mahogany",
+      "image": "https://www.google.com/aclk?sa=l&ai=DChcSEwiRlZ-4woT-AhXtam8EHRiIDgsYABAfGgJqZg&sig=AOD64_0TnyLpMI4mOIcNrI8JCz9h1cBrAw&adurl&ctype=5&ved=2ahUKEwjb7JG4woT-AhXPk4QIHVAFAyIQvhd6BQgBEOAB",
       "price": 40
     },
     {
@@ -168,7 +251,7 @@
       "price": 40
     }
   ],
-  "hardware": [
+  "hardwareTypes": [
     {
       "id": 1,
       "type": "Standard",
@@ -178,6 +261,102 @@
       "id": 2,
       "type": "Premium",
       "price": 85
+    }
+  ],
+  "newOrders": [
+    {
+      "customGuitarId": 26,
+      "id": 9
+    },
+    {
+      "customGuitarId": 35,
+      "id": 12
+    },
+    {
+      "customGuitarId": 37,
+      "id": 14
+    }
+  ],
+  "contactUs": [
+    {
+      "userId": 1,
+      "email": "nadams.gmail.com",
+      "firstName": "Nick",
+      "lastName": "Adams",
+      "message": "When can I expect my guitar to be completed?",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "email": "nadams.music@gmail",
+      "firstName": "Nick ",
+      "lastName": "Adams",
+      "message": "When will you be receiving new woods?",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "email": "nadams.music@gmail.com",
+      "firstName": "Nick",
+      "lastName": "Adams",
+      "message": "Please Have completed by christmas",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "email": "nadams.music@gmail.com",
+      "firstName": "Nicholas",
+      "lastName": "Adams",
+      "message": "When will this build be completed?",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "email": "nadams.music@gmail.com",
+      "firstName": "Nicholas",
+      "lastName": "Adams",
+      "message": "Hey Jake, When will my guitar be finished?",
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "email": "nadams.music@gmail.com",
+      "firstName": "Nick",
+      "lastName": "Adams",
+      "message": "Hey Jake!  Hope all is well.  Just wanted to thank you again for an excellent product!",
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "email": "nadams.music@gmail.com",
+      "firstName": "Nick",
+      "lastName": "Adams",
+      "message": "You rule!",
+      "id": 12
+    },
+    {
+      "userId": 4,
+      "email": "natalieJ@gmail.com",
+      "firstName": "Natalie",
+      "lastName": "Johnson",
+      "message": "Yo, When will this thing be done?",
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "email": "nadams.music@gmail.com",
+      "firstName": "Nick",
+      "lastName": "Nick",
+      "message": "When will my guitar be finished",
+      "id": 14
+    },
+    {
+      "userId": 6,
+      "email": "kjdkjdkd",
+      "firstName": "JC",
+      "lastName": "White",
+      "message": "When will my balls be completed",
+      "id": 15
     }
   ]
 }
